@@ -14,6 +14,7 @@ const portalSchema = mongoose.Schema(
     portal_raqami: {
       type: String,
       required: true,
+      unique: true
     },
     kelib_tushgan_sana: {
       type: String,
